@@ -15,7 +15,7 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -27,5 +27,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
+
+  --primary-text-color: #141414;
+  --alt-text-color:#fff;
+  --primary-background: #F3F3F3;
+  --secondary-backround:#EAF7E5;;
+  --hero-background: #A1C487;
+
 }
