@@ -1,1 +1,36 @@
-<section>Hello stranger!!</section>
+<link rel="stylesheet" href="../css/modal.css" />
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-button" data-modal-close>
+      <svg
+        class="close-button"
+        aria-label="close-button"
+        width="20"
+        height="20"
+      >
+        <use href="./img/svg/symbol-defs.svg#icon-x"></use>
+      </svg>
+    </button>
+    <p class="order-form-modalname">YOUR ORDER</p>
+    <div class="img-girl-in-orange">
+      <img src="../img/png/girl-modal.png" alt="girl_in_orange" width="360" />
+    </div>
+    <form class="contact-form">
+      <div class="contact-form-wrapper">
+        <label class="contact-form-field-wrapper" for="user-name">
+          <span class="contact-form-field-desc">Name</span>
+        </label>
+        <div class="contact-form-input-wrapper">
+          <input
+            class="contact-form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            required
+            pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄ']+"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
